@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width",initial-scale="1.0">
+    <title>
+        ANIMATION
+    </title>
+    <style>
+        body{
+            justify-content: center;
+            align-items: center;
+            background-image: url("love.jpg");
+            background-repeat: repeat;
+            background-size: 120px 190px;
+        }
+     @keyframes ashok{
+        0%{left:0px;top:0px;}
+        50%{left:200px;top:0px;}
+        50%{left:0px; top:200px;}  
+     }
+     .none{
+        width:200px;
+        height:200px;
+        animation-name:ashok;
+        animation-duration: 4s;
+        animation-iteration-count: 3;
+        animation-delay: 3s;
+        animation-iteration-count: infinite;
+        position:relative;
+        justify-content: end;
+        top:500px;
+        left: 400px;
+     }
+    </style>
+</head>
+<body>
+    <div class="none">
+        <img src="./emo.jpg">
+        </div>
+        <div class="id">
+        <img src="./lau.jpg">
+        </div>
+        <div class="none">
+            <img src="./emo.jpg">
+            </div>
+            <div class="id">
+            <img src="./lau.jpg">
+            </div>
+</body>
+
+</html>
